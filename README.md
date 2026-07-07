@@ -1,34 +1,49 @@
 <div align="center">
 
-# Hey, I'm Nikita 👋
+<h1>Hi, I'm Nikita Mahindrakar 👋</h1>
 
-**AI Engineer · Full-Stack · LLM Systems · Python**
+<p><strong>AI Engineer · LLM Systems · Python · CI/CD · AWS</strong></p>
 
-*Building production AI that actually does things — agents, RAG pipelines, and LLM-powered tooling that ships.*
+<p><em>I ship production AI — not demos. Agents, RAG pipelines, and LLM-powered tooling that runs in the real world.</em></p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nikita-mahindrakar)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahindrakarnikita8@gmail.com)
-[![Portfolio](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NikitaMahindrakar)
+[![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahindrakarnikita8@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NikitaMahindrakar)
+[![Open to work](https://img.shields.io/badge/Open%20to%20Work-AI%20Engineer%20roles-00B37E?style=for-the-badge)](https://linkedin.com/in/nikita-mahindrakar)
 
 </div>
 
 ---
 
-## 👩‍💻 About Me
+## ⚡ What I Build
 
-- 🏢 **1.5 years at Siemens DISW** — shipped production AI, CI/CD tooling, and full-stack applications in an enterprise environment
-- 🤖 Built **NXCI Bot** — a GPT-powered AI Copilot (LangChain + Azure OpenAI + NL-to-SQL) that went from prototype → production
-- 🔍 Hands-on with **RAG pipelines**, FAISS vector search, prompt engineering, and agentic workflows
-- 🛠️ Full ownership mindset: requirements → design → build → test → deploy → operate
-- 🤝 Uses **Claude & GitHub Copilot daily** — AI-assisted engineering is my default mode
-- 📍 Based in Maharashtra, India
+1.5 years at **Siemens DISW** building and shipping production LLM-powered systems — including **NXCI Bot**, a GPT-driven DevOps AI Copilot that went from prototype to production using LangChain, Azure OpenAI, and a custom NL-to-SQL orchestration engine. I work across the full stack: agents, RAG pipelines, APIs, dashboards, and cloud infra.
+
+```python
+nikita = {
+    "currently": "Building LLM agents & RAG pipelines",
+    "stack":     ["Python", "LangChain", "Azure OpenAI", "FastAPI", "Docker", "K8s", "AWS"],
+    "strengths": ["Prototype → Production", "Agentic Systems", "CI/CD Automation"],
+    "daily":     ["Claude", "GitHub Copilot"],  # AI-assisted engineering by default
+    "open_to":   "AI Engineer · Full-Stack AI · DevOps AI roles"
+}
+```
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🤖 [CodeInsight-AI](https://github.com/NikitaMahindrakar/CodeInsight-AI)
-> RAG-powered codebase analysis tool — ingests repos via GitHub API, builds a FAISS vector index, and uses LLaMA (via Groq) to auto-generate onboarding docs and surface quality issues.
+### 🤖 NXCI Bot — GPT-Powered DevOps AI Copilot *(@ Siemens DISW · Production)*
+> AI Copilot built on Azure OpenAI + LangChain with a custom **NL-to-SQL** engine for natural language queries over distributed CI/CD build systems. Taken from prototype → production with a Streamlit UI for non-technical users.
+
+`Python` `LangChain` `Azure OpenAI (GPT)` `Flask` `MySQL` `AWS RDS` `Streamlit`
+
+**What makes it real:** tool-wrapping, structured outputs, human-in-the-loop escalation, deployed on AWS — not a chatbot wrapper.
+
+---
+
+### 🧠 [CodeInsight-AI — RAG Code Analysis Tool](https://github.com/NikitaMahindrakar/CodeInsight-AI)
+> Open-source: ingests codebases via GitHub API → FAISS vector index → LLaMA (Groq) generates onboarding docs & surfaces quality issues.
 
 `Python` `LangChain` `FAISS` `HuggingFace` `Groq (LLaMA)` `GitHub API` `RAG`
 
@@ -38,39 +53,39 @@
 
 ---
 
+### 🔧 [Minikube CI/CD DevOps Pipeline](https://github.com/NikitaMahindrakar/Minikube-CI-CD-DevOps-Pipeline)
+> End-to-end container deployment: GitHub → Jenkins → Docker build → Docker Hub → Kubernetes on Minikube. Zero manual intervention, zero-downtime rollouts.
+
+`Jenkins` `Docker` `Kubernetes (Minikube)` `Python`
+
+- 📋 Multi-stage Jenkinsfile + Kubernetes YAML manifests
+- ✅ Rollout verification via `kubectl rollout status`
+
+---
+
 ### 🛒 [EyeWear Order Management System](https://github.com/NikitaMahindrakar/EyeWear_Order_Management_System)
-> Production-grade full-stack app with real-time SLA tracking, complete order lifecycle management, and an AI turnaround-time predictor.
+> Full-stack app with real-time SLA dashboard, complete order lifecycle, and a Scikit-learn ML module for turnaround time prediction.
 
 `React.js` `TypeScript` `FastAPI` `MongoDB` `Scikit-learn` `REST API`
 
-- 📊 Real-time SLA dashboard with order-status-driven workflow branching
-- 🧠 Scikit-learn Random Forest Regressor for turnaround time prediction
-- ☁️ Deployed with uvicorn + MongoDB Atlas
-
 ---
 
-### 🔧 Minikube CI/CD DevOps Pipeline *(@ Siemens DISW)*
-> End-to-end container deployment pipeline: GitHub → Jenkins → Docker build → Docker Hub → Kubernetes on Minikube.
+## 📊 By the Numbers
 
-`Jenkins` `Docker` `Kubernetes` `Minikube` `Python`
-
-- 🔄 Full automation — zero manual intervention
-- 📋 Multi-stage Jenkinsfile + Kubernetes YAML manifests
-- ✅ Zero-downtime rollout verification via `kubectl rollout status`
-
----
-
-### 📡 Real-Time APM Dashboard *(@ Siemens DISW)*
-> Live service health monitoring with anomaly detection, alert management, and audit logging — cut troubleshooting time by **~50%**.
-
-`Flask` `React.js` `MySQL` `Python` `JavaScript`
+| Metric | Impact |
+|--------|--------|
+| 🤖 Manual DevOps effort eliminated | **~60%** via Python automation |
+| 📡 Faster incident resolution | **~50%** with real-time APM dashboard |
+| ⚡ RAG analysis latency reduction | **~5×** with parallel ingestion |
+| 🔧 Data inconsistencies eliminated | **~90%** with automated validation tooling |
+| 🔁 Daily builds maintained | **80%+ success rate** across 5+ builds/day |
 
 ---
 
 ## 🛠️ Tech Stack
 
 **AI & LLMs**
-`LangChain` `Azure OpenAI (GPT)` `RAG Pipelines` `FAISS` `HuggingFace` `Prompt Engineering` `Agents`
+`LangChain` `Azure OpenAI (GPT)` `Anthropic Claude API` `RAG Pipelines` `FAISS Vector Search` `HuggingFace` `Prompt Engineering` `Agents & Tool Calling`
 
 **Languages**
 `Python` `JavaScript` `TypeScript` `SQL` `Bash`
@@ -82,28 +97,19 @@
 `React.js` `Redux` `TypeScript` `Streamlit`
 
 **Cloud & DevOps**
-`AWS (EC2, S3, IAM, RDS)` `Azure OpenAI` `Docker` `Kubernetes` `Jenkins` `GitLab CI/CD`
+`AWS (EC2, S3, IAM, RDS)` `Docker` `Kubernetes` `Jenkins` `GitLab CI/CD` `Harbor Registry`
 
 **Databases**
-`MySQL` `MongoDB Atlas` `FAISS (vector store)`
+`MySQL` `MongoDB Atlas` `FAISS`
+
+**Observability**
+`Real-time APM` `Anomaly Detection` `Alert Management` `Audit Logging` `RCA Reporting`
 
 ---
 
-## 📊 GitHub Stats
+## 🎓 Education & Certifications
 
-<div align="center">
-
-![Nikita's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NikitaMahindrakar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikitaMahindrakar&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 🎓 Education & Certs
-
-- 🎓 **B.Tech in Information Technology** — Government College of Engineering, Karad (CGPA: 8.94/10)
+- 🎓 **B.Tech in Information Technology** — Government College of Engineering, Karad · **CGPA: 8.94/10**
 - ☁️ **AWS Cloud Practitioner Essentials** — AWS Skill Builder
 - 🤖 **Explainable AI & Responsible AI** — Infosys Springboard
 
@@ -111,8 +117,12 @@
 
 <div align="center">
 
-*Open to AI Engineer / Full-Stack AI roles — let's build something real.*
+### 💬 Let's talk
 
-[![LinkedIn](https://img.shields.io/badge/Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nikita-mahindrakar)
+I'm open to **AI Engineer**, **Full-Stack AI**, and **DevOps AI** roles where I can own things end-to-end and ship real systems.
+
+**📧 mahindrakarnikita8@gmail.com**
+
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nikita-mahindrakar)
 
 </div>
