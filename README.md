@@ -17,7 +17,7 @@
 
 ## ⚡ What I Build
 
-1.5 years at **Siemens DISW** building and shipping production LLM-powered systems — including **NXCI Bot**, a GPT-driven DevOps AI Copilot that went from prototype to production using LangChain, Azure OpenAI, and a custom NL-to-SQL orchestration engine. I work across the full stack: agents, RAG pipelines, APIs, dashboards, and cloud infra.
+1.5 years at **Siemens DISW** building and shipping production LLM-powered systems - including **NXCI Bot**, a GPT-driven DevOps AI Copilot that went from prototype to production using LangChain, Azure OpenAI, and a custom NL-to-SQL orchestration engine. I work across the full stack: agents, RAG pipelines, APIs, dashboards, and cloud infra.
 
 ```python
 nikita = {
@@ -33,28 +33,28 @@ nikita = {
 
 ## 🚀 Featured Projects
 
-### 🤖 NXCI Bot — GPT-Powered DevOps AI Copilot *(@ Siemens DISW · Production)*
-> AI Copilot built on Azure OpenAI + LangChain with a custom **NL-to-SQL** engine for natural language queries over distributed CI/CD build systems. Taken from prototype → production with a Streamlit UI for non-technical users.
+### 🤖 NXCI Bot: GPT-Powered DevOps AI Copilot *(@ Siemens DISW · Production)*
+> AI Copilot built on Azure OpenAI + LangChain with a custom **NL-to-SQL** engine for natural language queries over distributed CI/CD build systems. Taken from prototype -> production with a Streamlit UI for non-technical users.
 
 `Python` `LangChain` `Azure OpenAI (GPT)` `Flask` `MySQL` `AWS RDS` `Streamlit`
 
-**What makes it real:** tool-wrapping, structured outputs, human-in-the-loop escalation, deployed on AWS — not a chatbot wrapper.
+**What makes it real:** tool-wrapping, structured outputs, human-in-the-loop escalation - not a chatbot wrapper.
 
 ---
 
-### 🧠 [CodeInsight-AI — RAG Code Analysis Tool](https://github.com/NikitaMahindrakar/CodeInsight-AI)
+### 🧠 [CodeInsight-AI: RAG Code Analysis Tool](https://github.com/NikitaMahindrakar/CodeInsight-AI)
 > Open-source: ingests codebases via GitHub API → FAISS vector index → LLaMA (Groq) generates onboarding docs & surfaces quality issues.
 
 `Python` `LangChain` `FAISS` `HuggingFace` `Groq (LLaMA)` `GitHub API` `RAG`
 
-- ⚡ Parallel ingestion algorithm — **~5× faster** analysis latency
+- ⚡ Parallel ingestion algorithm - **~5× faster** analysis latency
 - 📄 Auto-generates onboarding & troubleshooting documentation
-- 🔍 Full RAG pipeline: chunk → embed → retrieve → generate
+- 🔍 Full RAG pipeline: chunk -> embed -> retrieve -> generate
 
 ---
 
 ### 🔧 [Minikube CI/CD DevOps Pipeline](https://github.com/NikitaMahindrakar/Minikube-CI-CD-DevOps-Pipeline)
-> End-to-end container deployment: GitHub → Jenkins → Docker build → Docker Hub → Kubernetes on Minikube. Zero manual intervention, zero-downtime rollouts.
+> End-to-end container deployment: GitHub -> Jenkins -> Docker build -> Docker Hub -> Kubernetes on Minikube. Zero manual intervention, zero-downtime rollouts.
 
 `Jenkins` `Docker` `Kubernetes (Minikube)` `Python`
 
@@ -109,9 +109,9 @@ nikita = {
 
 ## 🎓 Education & Certifications
 
-- 🎓 **B.Tech in Information Technology** — Government College of Engineering, Karad · **CGPA: 8.94/10**
-- ☁️ **AWS Cloud Practitioner Essentials** — AWS Skill Builder
-- 🤖 **Explainable AI & Responsible AI** — Infosys Springboard
+- 🎓 **B.Tech in Information Technology** - Government College of Engineering, Karad · **CGPA: 8.94/10**
+- ☁️ **AWS Cloud Practitioner Essentials** - AWS Skill Builder
+- 🤖 **Explainable AI & Responsible AI** - Infosys Springboard
 
 ---
 
