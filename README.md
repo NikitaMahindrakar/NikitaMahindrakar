@@ -4,7 +4,7 @@
 
 <p><strong>AI Engineer · LLM Systems · Python · CI/CD · AWS</strong></p>
 
-<p><em>I ship production AI — not demos. Agents, RAG pipelines, and LLM-powered tooling that runs in the real world.</em></p>
+<p><em>I ship production AI - not demos. Agents, RAG pipelines, and LLM-powered tooling that runs in the real world.</em></p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nikita-mahindrakar)
 [![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahindrakarnikita8@gmail.com)
