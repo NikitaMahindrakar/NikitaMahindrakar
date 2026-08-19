@@ -161,17 +161,6 @@ Real-time SLA dashboard, complete order lifecycle, and a Scikit-learn ML module 
 
 ---
 
-## 📈 GitHub Stats
-
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=NikitaMahindrakar&show_icons=true&theme=default&hide_border=true&title_color=1F3864&icon_color=4B7BE5&text_color=333333&bg_color=ffffff" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NikitaMahindrakar&layout=compact&hide_border=true&title_color=1F3864&text_color=333333&bg_color=ffffff" />
-<br/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NikitaMahindrakar&hide_border=true&background=ffffff&stroke=1F3864&ring=4B7BE5&fire=4B7BE5&currStreakLabel=1F3864" />
-</div>
-
----
-
 ## 🎓 Education & Certifications
 
 - 🎓 **B.Tech in Information Technology** — Government College of Engineering, Karad · **CGPA: 8.94/10**
