@@ -1,94 +1,101 @@
-<div align="center">
+<h1 align="center">Nikita Mahindrakar</h1>
 
-# Nikita Mahindrakar
+<p align="center">
+  <b>Software Engineer</b> building reliable automation and LLM-powered tools<br>
+  Python &nbsp;·&nbsp; CI/CD &nbsp;·&nbsp; Retrieval-Augmented Generation &nbsp;·&nbsp; Observability
+</p>
 
-**DevOps Engineer · CI/CD & Cloud Operations · Observability · Applied AI/LLM Systems**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nikita-mahindrakar)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahindrakarnikita8@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NikitaMahindrakar)
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/nikita-mahindrakar">LinkedIn</a> &nbsp;|&nbsp;
+  <a href="mailto:mahindrakarnikita8@gmail.com">Email</a> &nbsp;|&nbsp;
+  India
+</p>
 
 ---
 
 ## About
 
-DevOps engineer with hands-on experience building and operating CI/CD pipelines, container infrastructure, and observability tooling in production environments. I focus on the full lifecycle — build, deploy, monitor, and troubleshoot — and I've applied that same discipline to shipping AI-assisted tooling (LLM agents, RAG pipelines, NL-to-SQL systems) that real teams use day to day.
+I turn slow, manual engineering workflows into tools people can trust. During 17 months at **Siemens DISW**, I worked on a large C++ product with 5+ daily builds, where I built CI/CD pipelines, a real-time monitoring dashboard, validation tooling, and an LLM assistant that lets engineers query build data in plain English.
 
-```text
-nikita = {
-    "role":        "DevOps Engineer",
-    "focus":       ["CI/CD", "Cloud & Container Ops", "Observability", "Applied AI/LLM tooling"],
-    "stack":       ["Python", "Docker", "Kubernetes", "Jenkins", "AWS", "MySQL"],
-    "currently":   "Open to Cloud Support / DevOps / Site Reliability roles",
-}
+My approach is simple: keep the code modular, validate inputs early, ground AI answers on real data, and make failures easy to diagnose.
+
+**Education:** B.Tech, Information Technology, Government College of Engineering, Karad (2024, CGPA 8.94 / 10)
+**Certifications:** AWS Cloud Practitioner Essentials · Explainable AI and Responsible AI
+
+## Focus Areas
+
+| | |
+|---|---|
+| **LLM applications** | Prompt design, structured outputs, RAG, NL-to-SQL, grounding answers on internal data |
+| **Backend and APIs** | Python services with Flask and FastAPI, REST design, input validation |
+| **Delivery pipelines** | Jenkins, GitLab CI/CD, Docker, Kubernetes, automated quality gates |
+| **Reliability** | Monitoring dashboards, alerting, log analysis, root cause analysis |
+
+## Selected Work
+
+### CodeInsight-AI: a RAG pipeline for understanding codebases
+
+Point it at a GitHub repository and it produces documentation and flags quality issues, using an LLM grounded on the repository's own code.
+
+```mermaid
+flowchart LR
+    A[GitHub API] --> B[Parallel ingestion]
+    B --> C[Code chunking]
+    C --> D[HuggingFace embeddings]
+    D --> E[(FAISS index)]
+    E --> F[LLM via Groq]
+    F --> G[Documentation and quality report]
 ```
 
----
+- Parallel ingestion design reduced analysis latency by about **5x**
+- Stack: Python, LangChain, FAISS, HuggingFace, Groq (LLaMA), GitHub API
 
-## Featured Projects
+### Minikube CI/CD Pipeline: from commit to running pod
 
-### NXCI Bot — AI-Assisted Operations Assistant
-*Built during my DevOps internship at Siemens DISW*
+A hands-off delivery pipeline with no manual steps, verified after every deployment.
 
-An internal tool built on Azure OpenAI and LangChain that answers natural-language questions over CI/CD build data through a custom NL-to-SQL engine, with a Streamlit front end for non-technical users.
+```mermaid
+flowchart LR
+    A[GitHub push] --> B[Jenkins]
+    B --> C[Docker build]
+    C --> D[Registry push]
+    D --> E[Kubernetes on Minikube]
+    E --> F[kubectl rollout status]
+```
 
-`Python` `LangChain` `Azure OpenAI` `Flask` `MySQL` `Streamlit`
+- Stack: Jenkins, Docker, Kubernetes (Minikube), Python
 
----
+### EyeWear Order Management System
 
-### [CodeInsight-AI](https://github.com/NikitaMahindrakar/CodeInsight-AI) — RAG Code Analysis Tool
+A full-stack order tracking application with real-time SLA monitoring and a machine learning model that predicts order turnaround time.
 
-Ingests a codebase through the GitHub API, indexes it with FAISS, and uses an LLM (Groq/LLaMA) to generate onboarding documentation and surface quality issues. Uses a parallelized ingestion step to keep analysis latency down on larger repos.
+- Stack: React, TypeScript, FastAPI, MongoDB Atlas, Scikit-learn
 
-`Python` `LangChain` `FAISS` `HuggingFace` `Groq (LLaMA)` `GitHub API`
+### Student Record Management System
 
----
+A multithreaded client-server system with modular object-oriented design. It serves concurrent connections and keeps records synchronized in real time over WebSocket.
 
-### [Minikube CI/CD DevOps Pipeline](https://github.com/NikitaMahindrakar/Minikube-CI-CD-DevOps-Pipeline)
+- Stack: C++, Boost.Asio, Boost.Beast, WebSocket, CMake
 
-An end-to-end container deployment pipeline — GitHub → Jenkins → Docker build → registry push → Kubernetes (Minikube) — with a multi-stage Jenkinsfile and rollout verification via `kubectl rollout status` for zero-downtime deploys.
+## Professional Experience
 
-`Jenkins` `Docker` `Kubernetes` `Python`
+**Software Engineer Intern, Siemens DISW** · Pune · Jun 2024 to Nov 2025
 
----
+- Built and maintained GitLab CI/CD and Jenkins pipelines with automated quality gates, reaching a pipeline success rate above 80% across 5+ daily builds
+- Built **NXCI Bot**, an LLM assistant on LangChain and Azure OpenAI with a custom NL-to-SQL engine, so engineers can ask questions about build data in plain English
+- Designed a real-time service monitoring dashboard with alerting and audit logging, and a validation tool that detects data inconsistencies across teams
+- Wrote Python automation for deployment validation and environment configuration, and fixed build and pipeline defects from compiler logs and stack traces
 
-### [EyeWear Order Management System](https://github.com/NikitaMahindrakar/EyeWear_Order_Management_System)
+> Siemens projects are internal, so their code is not public.
 
-A full-stack order management app with a real-time SLA dashboard, complete order lifecycle tracking, and a scikit-learn module for turnaround-time prediction.
+## Toolbox
 
-`React` `TypeScript` `FastAPI` `MongoDB` `scikit-learn`
+**Languages:** Python · JavaScript · TypeScript · C++ · SQL
+**Frameworks:** Flask · FastAPI · React · LangChain · Streamlit
+**Data and AI:** MySQL · MongoDB · FAISS · HuggingFace · Scikit-learn · Azure OpenAI
+**Infrastructure:** Docker · Kubernetes · Jenkins · GitLab CI/CD · AWS · Linux
+**Practices:** Git · code review · Agile · technical documentation · root cause analysis
 
----
+## Get in Touch
 
-## Tech Stack
-
-**Languages** `Python` `JavaScript` `TypeScript` `SQL` `Bash`
-
-**Cloud & DevOps** `AWS (EC2, S3, IAM, RDS)` `Docker` `Kubernetes` `Jenkins` `GitLab CI/CD` `Harbor Registry` `Terraform (foundational)`
-
-**Backend & APIs** `Flask` `FastAPI` `REST APIs`
-
-**Databases** `MySQL` `MongoDB` `FAISS (vector search)`
-
-**Observability** `Real-time APM dashboards` `Alerting` `Anomaly detection` `Audit logging` `RCA reporting`
-
-**AI / LLM Tooling** `LangChain` `Azure OpenAI` `RAG pipelines` `Prompt engineering`
-
----
-
-## Education & Certifications
-
-- **B.Tech in Information Technology** — Government College of Engineering, Karad (CGPA: 8.94/10)
-- AWS Cloud Practitioner Essentials — AWS Skill Builder
-- Explainable AI & Responsible AI — Infosys Springboard
-
----
-
-<div align="center">
-
-Open to Cloud Support, DevOps, and Site Reliability roles.
-Reach me at **mahindrakarnikita8@gmail.com** or on [LinkedIn](https://linkedin.com/in/nikita-mahindrakar).
-
-</div>
+I'm interested in roles where I can build AI-assisted tooling, backend services, and delivery automation. The best way to reach me is by [email](mailto:mahindrakarnikita8@gmail.com) or on [LinkedIn](https://linkedin.com/in/nikita-mahindrakar).
